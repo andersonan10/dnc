@@ -52,6 +52,83 @@
       }
       a {
         color: black;
+        text-decoration: none;
+      }
+      buttonCta {
+        background: #1f7cff;
+        border-radius: 50px;
+        font-family: Popins;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #ffffff;
+        padding: 10px 25px 10px 25px;
+      }
+      p.gray {
+        font-family: Popins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        color: #575455;
+      }
+      #headerCta h1 {
+        font-family: Popins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        color: #000000;
+      }
+      #headerImg {
+        margin-left: 42px;
+      }
+      #headerImg img {
+        width: 100%;
+      }
+      .headerLogo {
+        text-align: center;
+      }
+      #clients {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      #headerClientText {
+        font-family: Popins;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #070f18;
+      }
+      h2.red {
+        font-family: Popins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #f75c4e;
+      }
+      h1.black {
+        font-family: Popins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 54px;
+        text-align: center;
+        color: #000000;
+        margin-top: 0;
+      }
+      .textCenter {
+        text-align: center;
+      }
+      #services .textCenter h3 {
+        font-family: Popins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #070f18;
       }
     </style>
   </head>
@@ -64,6 +141,70 @@
           <li><a href="">Contato</a></li>
           <li><a href="">Portifólio</a></li>
         </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="headerCta">
+        <h1>
+          Olá, meu nome<br />
+          é Maria
+        </h1>
+        <p class="gray">
+          Sou programador e gostaria de apresentar meu<br />
+          trabalho para você através deste portifólio.
+        </p>
+        <a id="buttonCta" href="">Meus Serviços.</a>
+      </div>
+      <div id="headerImg">
+        <img src="./img/header.svg" alt="Minha foto de Perfil" />
+      </div>
+    </div>
+    <div class="container" id="clients">
+      <div id="headerClientText">
+        Alguns dos <br />
+        meus clientes
+      </div>
+      <div class="headerLogo">
+        <img src="./img/apple.svg" alt="Ícone da Apple" />
+      </div>
+      <div class="headerLogo">
+        <img src="./img/slack.svg" alt="Ícone do Slack" />
+      </div>
+      <div class="headerLogo">
+        <img src="./img/spotify.svg" alt="Ícone do spotify" />
+      </div>
+    </div>
+    <div class="container">
+      <div id="services">
+        <h2 class="red">Conheça</h2>
+        <h1 class="black">Meus Serviços</h1>
+      </div>
+    </div>
+    <div class="container" id="services">
+      <div class="textcenter">
+        <img src="./img/icon1.svg" alt="Ícone de Consultoria" />
+        <h3>Consultoria</h3>
+        <p class="gray">
+          Te ajudo a organizar sua empresa<br />
+          e melhorar seus resultados.
+        </p>
+      </div>
+      <div class="textcenter">
+        <img src="./img/icon2.svg" alt="Ícone de Marketing" />
+        <h3>Email Marketing</h3>
+        <p class="gray">
+          Gerenciar campanhas é dificil.<br />
+          Conte comigo para te ajudar.
+        </p>
+      </div>
+      <div class="textcenter">
+        <img src="./img/icon3.svg" alt="Ícone de Sites" />
+        <h3>Criação de sites</h3>
+        <p class="gray">
+          Desenvolvo seu site inteiro<br />
+          do zero e te entrego prontinho.
+        </p>
       </div>
     </div>
   </body>
